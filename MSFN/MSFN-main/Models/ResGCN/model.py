@@ -1,5 +1,6 @@
 from torch.nn import Linear as Lin, Sequential as Seq, Parameter
-from dense import MultiSeq, MLP, GraphConv, ResGraphBlock,DenseGraphBlock
+from dense import MLP
+from sparse import MultiSeq, GraphConv, ResGraphBlock,DenseGraphBlock
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
